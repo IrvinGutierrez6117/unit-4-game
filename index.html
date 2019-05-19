@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang= "en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Collect All The Crystals!!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron" style="background-color: black; color: white;">
+            <div class="container">
+                <h1 class="text-center">
+                    <bold>Crystal Collector</bold>
+                </h1>
+            </div>
+        </div>
+     </div>
+      <!-- Instructions -->
+    <div class="row">
+
+            
+            <div class="col-md-12">
+              <div class="card mb-4">
+                <div class="card-header">
+                  Instructions
+                </div>
+                <div class="card-body">
+                  <p>
+                    <small>Crystal will have a random value assosiated with them, click on each of the crystals and try to beat
+                        the target score.
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+      
+          
+          <div class="row">
+      
+            
+            <div class="col-md-3">
+              <div class="card mb-4">
+                <div class="card-header">
+                  Target Score
+                </div>
+                <div class="card-body">
+                  <h3 class="text-center" id="target-score"></h3>
+                </div>
+              </div>
+            </div>
+      
+           
+            <div class="col-md-3">
+      
+              <div class="card mb-5">
+                <div class="card-header">
+                  Your Score
+                </div>
+                <div class="card-body">
+                  <h3 class="text-center" id="your-score"></h3>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md-3">
+      
+              <div class="card mb-4">
+                <div class="card-header">
+                  Crystal Selection
+                </div>
+                <div class="card-body text-center">
+                  <img src="image/blue.png" id="blue">
+                  <img src="image/green.png" id="green">
+                  <img src="image/red.png" id="red">
+                  <img src="image/yellow.png" id="yellow">
+                </div>
+              </div>
+      
+            </div>
+      
+          </div>
+      
+      
+          <!-- Counters Row -->
+          <div class="row">
+      
+            <!-- Win Count -->
+            <div class="col-md-6">
+              <div class="card mb-4">
+                <div class="card-header">
+                  Win Count
+                </div>
+                <div class="card-body">
+                  <h3 class="text-center" id="win-count">0</h3>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Loss Count -->
+            <div class="col-md-6">
+      
+              <div class="card mb-4">
+                <div class="card-header">
+                  Loss Count
+                </div>
+                <div class="card-body">
+                  <h3 class="text-center" id="loss-count">0</h3>
+                </div>
+              </div>
+      
+            </div>
+          </div>
+        </div>
+      
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       
+        <script src="javascript/logic.js"></script>
+
+
+
+
+</body>
+
+
+</html>
